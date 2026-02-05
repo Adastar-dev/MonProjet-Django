@@ -1,0 +1,31 @@
+{% extends 'monapp/base.html' %}
+
+{% block title %}Alliance d'Or - Bijoutier en Ligne{% endblock %}
+
+{% block content %}
+<div class="home-hero">
+    <div class="hero-overlay">
+        <h1>L'Alliance de Vos Rêves</h1>
+        <p>Créateurs d'alliances en or depuis 1995</p>
+        <a href="{% url 'a_propos' %}" class="btn-gold">Découvrir Notre Histoire</a>
+    </div>
+</div>
+
+<div class="features">
+    <div class="feature">
+        <div class="feature-icon">💎</div>
+        <h3>Or 18 Carats</h3>
+        <p>Authentique et durable</p>
+    </div>
+    <div class="feature">
+        <div class="feature-icon">👨‍🎨</div>
+        <h3>Sur Mesure</h3>
+        <p>Création personnalisée</p>
+    </div>
+    <div class="feature">
+        <div class="feature-icon">📦</div>
+        <h3>Livraison Gratuite</h3>
+        <p>Partout dans le monde</p>
+    </div>
+</div>
+{% endblock %}

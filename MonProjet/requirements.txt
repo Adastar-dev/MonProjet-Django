@@ -1,0 +1,11 @@
+# Projet Django - TP Configuration
+# Dépendances Python nécessaires
+
+Django==4.2.0
+
+# Version de Django utilisée : 4.2.0
+# Compatible avec Python 3.8+
+# Installation : pip install -r requirements.txt
+
+# Pour régénérer ce fichier :
+# pip freeze > requirements.txt
