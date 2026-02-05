@@ -22,6 +22,23 @@ Site web avec 3 pages : Accueil, À propos, Contact.
 - templates/ : pages HTML
 - static/ : CSS
 
+## Structure du projet
+MonProjet/
+├── monapp/               # Mon application
+├── MonProjet/          # Configuration
+├── manage.py
+├── requirements.txt    # Dépendances
+└── README.md          # Ce fichier
+
+## Difficultés rencontrées
+- Erreur Python : Résolu en désactivant l'alias Windows
+
+- Templates non trouvés : Résolu en plaçant fichiers dans bon dossier
+
+- Django non installé : Résolu en activant environnement virtuel
+
+- GitHub main/master : Résolu en utilisant master au lieu de main
+
 ## Fonctionnalités
 - 3 pages web
 - Menu de navigation
